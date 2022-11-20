@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyHistory.Api/1.0.0": {
+        "dependencies": {
+          "MyHistory.Application": "1.0.0",
+          "MyHistory.Contracts": "1.0.0",
+          "MyHistory.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "MyHistory.Api.dll": {}
+        }
+      },
+      "MyHistory.Application/1.0.0": {
+        "dependencies": {
+          "MyHistory.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyHistory.Application.dll": {}
+        }
+      },
+      "MyHistory.Contracts/1.0.0": {
+        "runtime": {
+          "MyHistory.Contracts.dll": {}
+        }
+      },
+      "MyHistory.Domain/1.0.0": {
+        "runtime": {
+          "MyHistory.Domain.dll": {}
+        }
+      },
+      "MyHistory.Infrastructure/1.0.0": {
+        "dependencies": {
+          "MyHistory.Application": "1.0.0"
+        },
+        "runtime": {
+          "MyHistory.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyHistory.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyHistory.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyHistory.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyHistory.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyHistory.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

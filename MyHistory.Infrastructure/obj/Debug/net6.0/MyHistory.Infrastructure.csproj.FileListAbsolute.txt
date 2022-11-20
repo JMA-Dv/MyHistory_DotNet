@@ -1,0 +1,17 @@
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\bin\Debug\net6.0\MyHistory.Infrastructure.deps.json
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\bin\Debug\net6.0\MyHistory.Infrastructure.dll
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\bin\Debug\net6.0\MyHistory.Infrastructure.pdb
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\bin\Debug\net6.0\MyHistory.Application.dll
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\bin\Debug\net6.0\MyHistory.Domain.dll
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\bin\Debug\net6.0\MyHistory.Application.pdb
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\bin\Debug\net6.0\MyHistory.Domain.pdb
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.AssemblyInfo.cs
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.csproj.CopyComplete
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.dll
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\refint\MyHistory.Infrastructure.dll
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.pdb
+C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Infrastructure\obj\Debug\net6.0\ref\MyHistory.Infrastructure.dll

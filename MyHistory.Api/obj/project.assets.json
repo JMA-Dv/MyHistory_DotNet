@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MyHistory.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MyHistory.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyHistory.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyHistory.Application.dll": {}
+        }
+      },
+      "MyHistory.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyHistory.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyHistory.Contracts.dll": {}
+        }
+      },
+      "MyHistory.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyHistory.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyHistory.Domain.dll": {}
+        }
+      },
+      "MyHistory.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MyHistory.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyHistory.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyHistory.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyHistory.Application/1.0.0": {
+      "type": "project",
+      "path": "../MyHistory.Application/MyHistory.Application.csproj",
+      "msbuildProject": "../MyHistory.Application/MyHistory.Application.csproj"
+    },
+    "MyHistory.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../MyHistory.Contracts/MyHistory.Contracts.csproj",
+      "msbuildProject": "../MyHistory.Contracts/MyHistory.Contracts.csproj"
+    },
+    "MyHistory.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MyHistory.Domain/MyHistory.Domain.csproj",
+      "msbuildProject": "../MyHistory.Domain/MyHistory.Domain.csproj"
+    },
+    "MyHistory.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MyHistory.Infrastructure/MyHistory.Infrastructure.csproj",
+      "msbuildProject": "../MyHistory.Infrastructure/MyHistory.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MyHistory.Application >= 1.0.0",
+      "MyHistory.Contracts >= 1.0.0",
+      "MyHistory.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Api\\MyHistory.Api.csproj",
+      "projectName": "MyHistory.Api",
+      "projectPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Api\\MyHistory.Api.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Application\\MyHistory.Application.csproj": {
+              "projectPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Application\\MyHistory.Application.csproj"
+            },
+            "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Contracts\\MyHistory.Contracts.csproj": {
+              "projectPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Contracts\\MyHistory.Contracts.csproj"
+            },
+            "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Infrastructure\\MyHistory.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Infrastructure\\MyHistory.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
