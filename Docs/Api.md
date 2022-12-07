@@ -36,7 +36,7 @@ POST {{localhost}}/auth/register
 
 ```JSON
 {
-    "Id":"2",
+    "Id": 2,
     "FirstName":"Test First Name",
     "LastName":"Test Last Name",
     "Email":"test@email.com",
@@ -59,7 +59,7 @@ POST {{localhost}}/auth/register
 
 ```json
 {
-    "Id": "12",
+    "Id": 12,
     "FirstName":"Test First Name",
     "LastName":"Test Last Name",
     "Email":"test@email.com",

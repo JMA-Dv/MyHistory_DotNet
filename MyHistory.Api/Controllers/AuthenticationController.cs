@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MyHistory.Application.Services.Authentication;
 using MyHistory.Contracts.Authentication;
 
 namespace MyHistory.Api.Controllers
@@ -8,16 +9,48 @@ namespace MyHistory.Api.Controllers
     [ApiController]
     public class AuthenticationController : ControllerBase
     {
-        [Route("register")]
-        public IActionResult Register(RegisterRequest request )
+        private readonly IAutheService _auth;
+
+        public AuthenticationController(IAutheService auth)
         {
-            return Ok(request);
+            _auth = auth;
+        }
+
+        [Route("register")]
+        public IActionResult Register(RegisterRequest request)
+        {
+            var authResult = _auth.Register(
+                request.FirstName, request.LastName, request.Email, request.Password
+                );
+
+            var response = new AuthenticationResponse
+            (
+                 authResult.user.Id,
+                 authResult.user.FirstName,
+                 authResult.user.LastName,
+                authResult.user.Email,
+                 authResult.Token
+            );
+            return Ok(response);
         }
 
         [Route("login")]
-        public IActionResult Login (LoginRequest request)
+        public IActionResult Login(LoginRequest request)
         {
-            return Ok(request);
+            var authResult = _auth.Login(
+                 request.Email, request.Password
+                );
+
+            var response = new AuthenticationResponse
+            (
+                 authResult.user.Id,
+                 authResult.user.FirstName,
+                 authResult.user.LastName,
+                authResult.user.Email,
+                 authResult.Token
+            );
+
+            return Ok(response);
         }
     }
 
