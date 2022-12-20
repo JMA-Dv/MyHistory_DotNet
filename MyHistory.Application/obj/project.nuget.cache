@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lRF8fAF97oOxsArk17EcmvIfvl7gTBgC61/LLvflx6N7ijyos7NBv/fUNCEKW1Js9lPpTfgtYqPOTB5bXTBOww==",
+  "dgSpecHash": "VfV9nAe4OgxHQ1KzRTJ9hguorCamHiVWHsk6H/iDqCEbhouDicHZ0BRlKuWIu7VEIoUOtqLWCNEhOesCRc4LGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Application\\MyHistory.Application.csproj",
+  "projectFilePath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Application\\MyHistory.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "C:\\Users\\Dracarys\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

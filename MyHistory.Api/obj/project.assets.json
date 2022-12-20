@@ -1005,19 +1005,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\Dracarys\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Api\\MyHistory.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Api\\MyHistory.Api.csproj",
       "projectName": "MyHistory.Api",
-      "projectPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Api\\MyHistory.Api.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Api\\obj\\",
+      "projectPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Api\\MyHistory.Api.csproj",
+      "packagesPath": "C:\\Users\\Dracarys\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dracarys\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1031,14 +1031,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Application\\MyHistory.Application.csproj": {
-              "projectPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Application\\MyHistory.Application.csproj"
+            "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Application\\MyHistory.Application.csproj": {
+              "projectPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Application\\MyHistory.Application.csproj"
             },
-            "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Contracts\\MyHistory.Contracts.csproj": {
-              "projectPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Contracts\\MyHistory.Contracts.csproj"
+            "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Contracts\\MyHistory.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Contracts\\MyHistory.Contracts.csproj"
             },
-            "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Infrastructure\\MyHistory.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\PC\\Documents\\Workspace\\Asp\\MyHistory\\MyHistory.Infrastructure\\MyHistory.Infrastructure.csproj"
+            "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Infrastructure\\MyHistory.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Infrastructure\\MyHistory.Infrastructure.csproj"
             }
           }
         }
@@ -1071,7 +1071,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,7 +13,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -21,5 +20,4 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseMiddleware<ErrorHandlingMiddleware>();
 app.MapControllers();
-
 app.Run();
