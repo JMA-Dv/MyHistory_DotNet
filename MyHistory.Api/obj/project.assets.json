@@ -317,16 +317,6 @@
           "bin/placeholder/MyHistory.Application.dll": {}
         }
       },
-      "MyHistory.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MyHistory.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyHistory.Contracts.dll": {}
-        }
-      },
       "MyHistory.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -981,11 +971,6 @@
       "path": "../MyHistory.Application/MyHistory.Application.csproj",
       "msbuildProject": "../MyHistory.Application/MyHistory.Application.csproj"
     },
-    "MyHistory.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../MyHistory.Contracts/MyHistory.Contracts.csproj",
-      "msbuildProject": "../MyHistory.Contracts/MyHistory.Contracts.csproj"
-    },
     "MyHistory.Domain/1.0.0": {
       "type": "project",
       "path": "../MyHistory.Domain/MyHistory.Domain.csproj",
@@ -1000,7 +985,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "MyHistory.Application >= 1.0.0",
-      "MyHistory.Contracts >= 1.0.0",
       "MyHistory.Infrastructure >= 1.0.0"
     ]
   },
@@ -1033,9 +1017,6 @@
           "projectReferences": {
             "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Application\\MyHistory.Application.csproj": {
               "projectPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Application\\MyHistory.Application.csproj"
-            },
-            "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Contracts\\MyHistory.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Contracts\\MyHistory.Contracts.csproj"
             },
             "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Infrastructure\\MyHistory.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Infrastructure\\MyHistory.Infrastructure.csproj"

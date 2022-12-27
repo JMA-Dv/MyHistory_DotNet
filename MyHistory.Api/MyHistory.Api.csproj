@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyHistory.Application\MyHistory.Application.csproj" />
-    <ProjectReference Include="..\MyHistory.Contracts\MyHistory.Contracts.csproj" />
     <ProjectReference Include="..\MyHistory.Infrastructure\MyHistory.Infrastructure.csproj" />
   </ItemGroup>
 
