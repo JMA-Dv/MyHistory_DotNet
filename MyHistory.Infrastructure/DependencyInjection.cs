@@ -1,10 +1,12 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 using Microsoft.Extensions.DependencyInjection;
 using MyHistory.Application.Common.Interfaces.Authentication;
 using MyHistory.Application.Common.Interfaces.Persistence;
 using MyHistory.Application.Common.Interfaces.Services;
 using MyHistory.Infrastructure.Authentication;
+using MyHistory.Infrastructure.Data;
 using MyHistory.Infrastructure.Persistence;
 using MyHistory.Infrastructure.Services;
 
@@ -16,6 +18,9 @@ namespace MyHistory.Infrastructure
         {
             services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
 
+            
+
+            services.AddDbContext<MyHistoryDbContext>(opt=> opt.UseSqlServer(configuration.GetConnectionString("LocalConnection")));
             services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
             services.AddSingleton<IDateTimeProvider, DatetimeProvider>();
             services.AddScoped<IUserRepository, UserRepository>();

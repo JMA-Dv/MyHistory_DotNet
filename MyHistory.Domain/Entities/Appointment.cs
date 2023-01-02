@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public string Description { get; set; } = string.Empty;
+
         public int IdSpecialist { get; set; }
         public Specialist? Specialist { get; set; }
         public ICollection<Test>? Tests { get; set; }

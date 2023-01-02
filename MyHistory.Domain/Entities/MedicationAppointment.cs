@@ -2,6 +2,7 @@
 {
     public class MedicationAppointment:BaseClass
     {
+        public int Id { get; set; }
         public int IdMedication { get; set; }
         public Medication? Medication { get; set; }
         public int IdAppointment { get; set; }
