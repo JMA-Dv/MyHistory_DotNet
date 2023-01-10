@@ -5,13 +5,11 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHistory.Api", "MyHistory.Api\MyHistory.Api.csproj", "{7A8F2C75-6785-49FD-BD0A-6E0F215172EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHistory.Infrastructure", "MyHistory.Infrastructure\MyHistory.Infrastructure.csproj", "{384E9BD4-7807-43D7-B8B6-0314E2A9E0C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHistory.Infrastructure", "MyHistory.Infrastructure\MyHistory.Infrastructure.csproj", "{384E9BD4-7807-43D7-B8B6-0314E2A9E0C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHistory.Domain", "MyHistory.Domain\MyHistory.Domain.csproj", "{EB956AD5-FEB6-406D-B0A9-98C4B3ED3495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHistory.Domain", "MyHistory.Domain\MyHistory.Domain.csproj", "{EB956AD5-FEB6-406D-B0A9-98C4B3ED3495}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHistory.Contracts", "MyHistory.Contracts\MyHistory.Contracts.csproj", "{0BBF177F-C166-494F-ADD5-AAB5A8A167BE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHistory.Application", "MyHistory.Application\MyHistory.Application.csproj", "{2FCB1A87-2A07-4E0B-AA78-D0A1950DBC0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHistory.Application", "MyHistory.Application\MyHistory.Application.csproj", "{2FCB1A87-2A07-4E0B-AA78-D0A1950DBC0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{EB956AD5-FEB6-406D-B0A9-98C4B3ED3495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB956AD5-FEB6-406D-B0A9-98C4B3ED3495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB956AD5-FEB6-406D-B0A9-98C4B3ED3495}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0BBF177F-C166-494F-ADD5-AAB5A8A167BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BBF177F-C166-494F-ADD5-AAB5A8A167BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BBF177F-C166-494F-ADD5-AAB5A8A167BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BBF177F-C166-494F-ADD5-AAB5A8A167BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2FCB1A87-2A07-4E0B-AA78-D0A1950DBC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2FCB1A87-2A07-4E0B-AA78-D0A1950DBC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCB1A87-2A07-4E0B-AA78-D0A1950DBC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU

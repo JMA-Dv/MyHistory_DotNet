@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyHistory.Application.Services.Authentication;
-using MyHistory.Contracts.Authentication;
+using MyHistory.Domain.Requests.Auth;
+using MyHistory.Domain.Responses.Auth;
 
 namespace MyHistory.Api.Controllers
 {

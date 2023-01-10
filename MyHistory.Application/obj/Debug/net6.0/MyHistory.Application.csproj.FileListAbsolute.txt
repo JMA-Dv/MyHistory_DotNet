@@ -13,3 +13,18 @@ C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Application\obj\Debug\ne
 C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Application\obj\Debug\net6.0\refint\MyHistory.Application.dll
 C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.pdb
 C:\Users\PC\Documents\Workspace\Asp\MyHistory\MyHistory.Application\obj\Debug\net6.0\ref\MyHistory.Application.dll
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\bin\Debug\net6.0\MyHistory.Application.deps.json
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\bin\Debug\net6.0\MyHistory.Application.dll
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\bin\Debug\net6.0\MyHistory.Application.pdb
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\bin\Debug\net6.0\MyHistory.Domain.dll
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\bin\Debug\net6.0\MyHistory.Domain.pdb
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.csproj.AssemblyReference.cache
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.AssemblyInfoInputs.cache
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.AssemblyInfo.cs
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.csproj.CoreCompileInputs.cache
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.csproj.CopyComplete
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.dll
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\refint\MyHistory.Application.dll
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\MyHistory.Application.pdb
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Application\obj\Debug\net6.0\ref\MyHistory.Application.dll
