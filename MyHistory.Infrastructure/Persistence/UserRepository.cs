@@ -1,24 +1,26 @@
-﻿using MyHistory.Application.Common.Interfaces.Persistence;
+﻿using Microsoft.Extensions.Logging;
+using MyHistory.Application.Common.Interfaces.Persistence;
 using MyHistory.Domain.Entities;
+using MyHistory.Infrastructure.Data;
+using MyHistory.Infrastructure.Persistence.Generic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MyHistory.Infrastructure.Persistence
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : GenericRepository<User>, IUserRepository
     {
-        public Task Add(User user)
+        public UserRepository(MyHistoryDbContext dbContext, ILogger logger) : base(dbContext, logger)
         {
-            
-
         }
 
         public User? GetUserByEmail(string email)
         {
-            return _users.FirstOrDefault(x => x.Email == email);
+            throw new NotImplementedException();
         }
     }
 }

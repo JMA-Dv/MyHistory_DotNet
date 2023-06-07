@@ -22,3 +22,15 @@ C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistor
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\refint\MyHistory.Domain.dll
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\MyHistory.Domain.pdb
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\ref\MyHistory.Domain.dll
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\bin\Debug\net6.0\MyHistory.Domain.deps.json
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\bin\Debug\net6.0\MyHistory.Domain.dll
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\bin\Debug\net6.0\MyHistory.Domain.pdb
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\MyHistory.Domain.csproj.AssemblyReference.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\MyHistory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\MyHistory.Domain.AssemblyInfoInputs.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\MyHistory.Domain.AssemblyInfo.cs
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\MyHistory.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\MyHistory.Domain.dll
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\refint\MyHistory.Domain.dll
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\MyHistory.Domain.pdb
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Domain\obj\Debug\net6.0\ref\MyHistory.Domain.dll

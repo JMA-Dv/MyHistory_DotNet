@@ -113,3 +113,12 @@ C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistor
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\tsconfig.config.json
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\tsconfig.json
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\tsconfig.vitest.json
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\MyHistory.Api.csproj.AssemblyReference.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\MyHistory.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\MyHistory.Api.AssemblyInfoInputs.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\MyHistory.Api.AssemblyInfo.cs
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\MyHistory.Api.csproj.CoreCompileInputs.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\MyHistory.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\MyHistory.Api.dll
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\refint\MyHistory.Api.dll
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Api\obj\Debug\net6.0\MyHistory.Api.pdb

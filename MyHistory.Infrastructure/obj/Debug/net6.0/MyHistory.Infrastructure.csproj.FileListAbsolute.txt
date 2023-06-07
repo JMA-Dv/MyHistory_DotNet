@@ -34,3 +34,11 @@ C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistor
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\ref\MyHistory.Infrastructure.dll
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Infrastructure\bin\Debug\net6.0\MyHistory.Infrastructure.runtimeconfig.json
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.genruntimeconfig.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.AssemblyInfo.cs
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.dll
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\refint\MyHistory.Infrastructure.dll
+C:\Users\aleja\Documents\Workspace\Personal\MyHistory_DotNet\MyHistory.Infrastructure\obj\Debug\net6.0\MyHistory.Infrastructure.pdb

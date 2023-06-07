@@ -61,7 +61,7 @@ namespace MyHistory.Application.Services.Authentication
                 LastName = LastName
             };
 
-            _user.Add(user);
+            //_user.Add(user);
 
 
             var token = _jwt.GenerateToken(user);
