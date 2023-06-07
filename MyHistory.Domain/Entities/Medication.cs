@@ -9,6 +9,6 @@
         public string Unit { get; set; } = string.Empty;
 
         public ICollection<Appointment>? Appointments { get; set; }
-        public List<MedicationAppointment>? MedicationAppointments { get; set; }
+        public ICollection<MedicationAppointment>? MedicationAppointments { get; set; }
     }
 }

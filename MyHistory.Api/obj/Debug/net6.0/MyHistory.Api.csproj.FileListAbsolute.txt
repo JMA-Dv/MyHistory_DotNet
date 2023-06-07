@@ -107,3 +107,9 @@ C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistor
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\package-lock.json
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\package.json
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\tsconfig.app.json
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\tsconfig.config.json
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\tsconfig.json
+C:\Users\Dracarys\Documents\Workspace\Personal Project\MyHistory_DotNet\MyHistory.Api\bin\Debug\net6.0\ClientApp\tsconfig.vitest.json

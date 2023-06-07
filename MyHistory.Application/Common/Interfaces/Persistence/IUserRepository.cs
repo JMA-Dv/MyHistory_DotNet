@@ -9,7 +9,7 @@ namespace MyHistory.Application.Common.Interfaces.Persistence
 {
     public interface IUserRepository
     {
-        void Add(User user);
+        Task Add(User user);
         User? GetUserByEmail(string email);//can get user or not '?'
     }
 }
