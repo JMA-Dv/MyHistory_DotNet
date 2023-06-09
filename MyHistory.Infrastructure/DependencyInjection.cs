@@ -3,11 +3,13 @@ using Microsoft.Extensions.Configuration;
 
 using Microsoft.Extensions.DependencyInjection;
 using MyHistory.Application.Common.Interfaces.Authentication;
+using MyHistory.Application.Common.Interfaces.Generic;
 using MyHistory.Application.Common.Interfaces.Persistence;
 using MyHistory.Application.Common.Interfaces.Services;
 using MyHistory.Infrastructure.Authentication;
 using MyHistory.Infrastructure.Data;
 using MyHistory.Infrastructure.Persistence;
+using MyHistory.Infrastructure.Persistence.Generic;
 using MyHistory.Infrastructure.Services;
 
 namespace MyHistory.Infrastructure
@@ -24,6 +26,7 @@ namespace MyHistory.Infrastructure
             services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
             services.AddSingleton<IDateTimeProvider, DatetimeProvider>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             return services;
         }
     }

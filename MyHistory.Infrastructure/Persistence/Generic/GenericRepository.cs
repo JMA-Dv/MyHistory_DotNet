@@ -16,13 +16,11 @@ namespace MyHistory.Infrastructure.Persistence.Generic
         protected MyHistoryDbContext _dbContext;
 
         protected DbSet<T> _dbSet;
-        protected readonly ILogger _logger;
 
-        public GenericRepository(MyHistoryDbContext dbContext, ILogger logger)
+        public GenericRepository(MyHistoryDbContext dbContext)
         {
             _dbContext = dbContext;
             _dbSet = _dbContext.Set<T>();
-            _logger = logger;
         }
 
         public async Task<bool> AddAsync(T entity)

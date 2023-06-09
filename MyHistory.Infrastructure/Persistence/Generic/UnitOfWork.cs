@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using MyHistory.Application.Common.Interfaces.Generic;
+﻿using MyHistory.Application.Common.Interfaces.Generic;
 using MyHistory.Application.Common.Interfaces.Persistence;
 using MyHistory.Infrastructure.Data;
 using System;
@@ -13,15 +12,13 @@ namespace MyHistory.Infrastructure.Persistence.Generic
     public class UnitOfWork : IUnitOfWork
     {
         private readonly MyHistoryDbContext _context;
-        private readonly ILogger _logger;
 
         public IUserRepository Users { get; private set; }
 
-        public UnitOfWork(MyHistoryDbContext context, ILoggerFactory logger)
+        public UnitOfWork(MyHistoryDbContext context)
         {
             _context = context;
-            _logger = logger.CreateLogger("logs");
-            Users = new UserRepository(_context,_logger);
+            Users = new UserRepository(_context);
         }
 
         public async Task<int> CompletedAsync()

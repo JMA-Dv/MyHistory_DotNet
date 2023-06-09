@@ -14,13 +14,13 @@ namespace MyHistory.Infrastructure.Persistence
 {
     public class UserRepository : GenericRepository<User>, IUserRepository
     {
-        public UserRepository(MyHistoryDbContext dbContext, ILogger logger) : base(dbContext, logger)
+        public UserRepository(MyHistoryDbContext dbContext) : base(dbContext)
         {
         }
 
         public User? GetUserByEmail(string email)
         {
-            throw new NotImplementedException();
+            return _dbContext.Users.Where(x => x.Email == email).FirstOrDefault();
         }
     }
 }
