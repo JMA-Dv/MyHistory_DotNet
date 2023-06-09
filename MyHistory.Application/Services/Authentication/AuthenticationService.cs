@@ -65,6 +65,7 @@ namespace MyHistory.Application.Services.Authentication
             };
 
             await _unitOfWork.Users.AddAsync(user);
+            await _unitOfWork.CompletedAsync();
 
 
             var token = _jwt.GenerateToken(user);
