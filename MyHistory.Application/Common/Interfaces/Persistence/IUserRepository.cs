@@ -5,7 +5,7 @@ namespace MyHistory.Application.Common.Interfaces.Persistence
 {
     public interface IUserRepository:IGenericRepository<User>
     {
-        User? GetUserByEmail(string email);//can get user or not '?'
+        Task<User?> GetUserByEmail(string email);//can get user or not '?'
 
     }
 }

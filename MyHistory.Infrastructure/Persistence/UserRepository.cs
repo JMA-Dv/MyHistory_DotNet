@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using MyHistory.Application.Common.Interfaces.Persistence;
 using MyHistory.Domain.Entities;
 using MyHistory.Infrastructure.Data;
@@ -18,9 +19,9 @@ namespace MyHistory.Infrastructure.Persistence
         {
         }
 
-        public User? GetUserByEmail(string email)
+        public async  Task<User?> GetUserByEmail(string email)
         {
-            return _dbContext.Users.Where(x => x.Email == email).FirstOrDefault();
+            return await _dbContext.Users.Where(x => x.Email == email).FirstOrDefaultAsync();
         }
     }
 }

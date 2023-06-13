@@ -14,7 +14,7 @@ namespace MyHistory.Application.Services.Authentication
     public interface IAutheService
     {
         Task<AuthenticationResponse> Register(string firstName,string LastName,string email, string password );
-        AuthenticationResponse Login(string email, string password );
+        Task<AuthenticationResponse> Login(string email, string password );
     }
 
     public class AuthenticationService : IAutheService
@@ -30,10 +30,10 @@ namespace MyHistory.Application.Services.Authentication
         }
 
         //Change Authentication result for a auth response
-        public AuthenticationResponse Login(string email, string password)
+        public async Task<AuthenticationResponse> Login(string email, string password)
         {
 
-            if (_unitOfWork.Users.GetUserByEmail(email) is not User user)
+            if (await _unitOfWork.Users.GetUserByEmail(email) is not User user)
             {
                 throw new Exception("Credentials are not correct");
             }
