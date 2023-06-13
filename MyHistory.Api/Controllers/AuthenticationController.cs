@@ -18,36 +18,37 @@ namespace MyHistory.Api.Controllers
         }
 
         [Route("register")]
-        public IActionResult Register(RegisterRequest request)
+        public async Task<IActionResult> RegisterAsync(RegisterRequest request)
         {
-            var authResult = _auth.Register(
+
+            var authResult = await _auth.Register(
                 request.FirstName, request.LastName, request.Email, request.Password
                 );
-
+            
             var response = new AuthenticationResponse
             (
-                 authResult.user.Id,
-                 authResult.user.FirstName,
-                 authResult.user.LastName,
-                authResult.user.Email,
+                 authResult.Id,
+                 authResult.FirstName,
+                 authResult.LastName,
+                authResult.Email,
                  authResult.Token
             );
             return Ok(response);
         }
 
         [Route("login")]
-        public IActionResult Login(LoginRequest request)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            var authResult = _auth.Login(
+            var authResult = await _auth.Login(
                  request.Email, request.Password
                 );
-
+            
             var response = new AuthenticationResponse
             (
-                 authResult.user.Id,
-                 authResult.user.FirstName,
-                 authResult.user.LastName,
-                authResult.user.Email,
+                 authResult.Id,
+                 authResult.FirstName,
+                 authResult.LastName,
+                authResult.Email,
                  authResult.Token
             );
 

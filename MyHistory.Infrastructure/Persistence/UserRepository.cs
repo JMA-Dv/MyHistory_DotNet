@@ -1,24 +1,21 @@
-﻿using MyHistory.Application.Common.Interfaces.Persistence;
+﻿using Microsoft.EntityFrameworkCore;
+using MyHistory.Application.Common.Interfaces.Persistence;
 using MyHistory.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MyHistory.Infrastructure.Data;
+using MyHistory.Infrastructure.Persistence.Generic;
 
 namespace MyHistory.Infrastructure.Persistence
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : GenericRepository<User>, IUserRepository
     {
-        private static readonly List<User> _users = new();
-        public void Add(User user)
+        public UserRepository(MyHistoryDbContext dbContext) : base(dbContext)
         {
-            _users.Add(user);
         }
 
-        public User? GetUserByEmail(string email)
+        public async  Task<User?> GetUserByEmail(string email)
         {
-            return _users.FirstOrDefault(x => x.Email == email);
+                var result = await _dbContext.Users.Where(x => x.Email == email).FirstOrDefaultAsync();
+                return result;
         }
     }
 }

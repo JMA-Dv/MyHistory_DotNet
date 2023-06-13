@@ -9,5 +9,8 @@
         public Specialist? Specialist { get; set; }
         public ICollection<Test>? Tests { get; set; }
         public ICollection<Medication>? Medications { get; set; }
+
+        public Guid IdUser { get; set; }
+        public User User { get; set; }
     }
 }

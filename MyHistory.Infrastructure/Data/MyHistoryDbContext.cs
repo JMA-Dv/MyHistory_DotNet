@@ -15,6 +15,7 @@ namespace MyHistory.Infrastructure.Data
         public DbSet<Specialty> Specialties { get; set; }
         public DbSet<Test> Tests { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
+        public DbSet<User> Users { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,6 +1,7 @@
 ﻿using MyHistory.Application.Common.Interfaces.Authentication;
-using MyHistory.Application.Common.Interfaces.Persistence;
+using MyHistory.Application.Common.Interfaces.Generic;
 using MyHistory.Domain.Entities;
+using MyHistory.Domain.Responses.Auth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,26 +12,27 @@ namespace MyHistory.Application.Services.Authentication
 {
     public interface IAutheService
     {
-        AuthenticationResult Register(string firstName,string LastName,string email, string password );
-        AuthenticationResult Login(string email, string password );
+        Task<AuthenticationResponse> Register(string firstName,string LastName,string email, string password );
+        Task<AuthenticationResponse> Login(string email, string password );
     }
 
     public class AuthenticationService : IAutheService
     {
-        private readonly IUserRepository _user;
+        private readonly IUnitOfWork _unitOfWork;
 
         private readonly IJwtTokenGenerator _jwt;
 
-        public AuthenticationService(IUserRepository user, IJwtTokenGenerator jwt)
+        public AuthenticationService(IUnitOfWork unitOfWork, IJwtTokenGenerator jwt)
         {
-            _user = user;
+            _unitOfWork = unitOfWork;
             _jwt = jwt;
         }
 
-        public AuthenticationResult Login(string email, string password)
+        //Change Authentication result for a auth response
+        public async Task<AuthenticationResponse> Login(string email, string password)
         {
 
-            if (_user.GetUserByEmail(email) is not User user)
+            if (await _unitOfWork.Users.GetUserByEmail(email) is not User user)
             {
                 throw new Exception("Credentials are not correct");
             }
@@ -41,14 +43,14 @@ namespace MyHistory.Application.Services.Authentication
             }
             var token = _jwt.GenerateToken(user);
 
-            return  new AuthenticationResult(
-                user,token);
+            return  new AuthenticationResponse(
+                user.Id,user.FirstName,user.LastName,user.Email,token);
         }
 
-        public AuthenticationResult Register(string firstName, string LastName, string email, string password)
+        public async Task<AuthenticationResponse> Register(string firstName, string LastName, string email, string password)
         {
 
-            if (_user.GetUserByEmail(email) != null )
+            if (await _unitOfWork.Users.GetUserByEmail(email) != null )
             {
                 throw new Exception("User with given email already exists");
             }
@@ -61,12 +63,14 @@ namespace MyHistory.Application.Services.Authentication
                 LastName = LastName
             };
 
-            _user.Add(user);
+            await _unitOfWork.Users.AddAsync(user);
+            await _unitOfWork.CompletedAsync();
 
 
             var token = _jwt.GenerateToken(user);
 
-            return new AuthenticationResult(user,token);
+            return new AuthenticationResponse(
+                user.Id, user.FirstName, user.LastName, user.Email, token);
         }
 
 

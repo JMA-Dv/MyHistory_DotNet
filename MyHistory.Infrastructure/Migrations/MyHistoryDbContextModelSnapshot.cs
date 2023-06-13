@@ -53,12 +53,20 @@ namespace MyHistory.Infrastructure.Migrations
                     b.Property<int>("IdSpecialist")
                         .HasColumnType("int");
 
+                    b.Property<Guid>("IdUser")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<int?>("SpecialistId")
                         .HasColumnType("int");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
                     b.HasIndex("SpecialistId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Appointments", "History");
                 });
@@ -239,6 +247,42 @@ namespace MyHistory.Infrastructure.Migrations
                     b.ToTable("Tests", "History");
                 });
 
+            modelBuilder.Entity("MyHistory.Domain.Entities.User", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateUpdated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users", "History");
+                });
+
             modelBuilder.Entity("AppointmentMedication", b =>
                 {
                     b.HasOne("MyHistory.Domain.Entities.Appointment", null)
@@ -260,7 +304,15 @@ namespace MyHistory.Infrastructure.Migrations
                         .WithMany()
                         .HasForeignKey("SpecialistId");
 
+                    b.HasOne("MyHistory.Domain.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Specialist");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("MyHistory.Domain.Entities.MedicationAppointment", b =>

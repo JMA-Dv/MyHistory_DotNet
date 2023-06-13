@@ -1,15 +1,11 @@
-﻿using MyHistory.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MyHistory.Application.Common.Interfaces.Generic;
+using MyHistory.Domain.Entities;
 
 namespace MyHistory.Application.Common.Interfaces.Persistence
 {
-    public interface IUserRepository
+    public interface IUserRepository:IGenericRepository<User>
     {
-        void Add(User user);
-        User? GetUserByEmail(string email);//can get user or not '?'
+        Task<User?> GetUserByEmail(string email);//can get user or not '?'
+
     }
 }
