@@ -14,10 +14,8 @@ namespace MyHistory.Infrastructure.Persistence
 
         public async  Task<User?> GetUserByEmail(string email)
         {
-
-            var some = await _dbContext.Users.Where(x=>x.Email == email).FirstAsync();
-            var result = await _dbContext.Users.Where(x => x.Email == email).FirstOrDefaultAsync();
-            return result;
+                var result = await _dbContext.Users.Where(x => x.Email == email).FirstOrDefaultAsync();
+                return result;
         }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using MyHistory.Application.Common.Interfaces.Authentication;
 using MyHistory.Application.Common.Interfaces.Generic;
-using MyHistory.Application.Common.Interfaces.Persistence;
 using MyHistory.Domain.Entities;
 using MyHistory.Domain.Responses.Auth;
 using System;
@@ -51,7 +50,7 @@ namespace MyHistory.Application.Services.Authentication
         public async Task<AuthenticationResponse> Register(string firstName, string LastName, string email, string password)
         {
 
-            if (_unitOfWork.Users.GetUserByEmail(email) != null )
+            if (await _unitOfWork.Users.GetUserByEmail(email) != null )
             {
                 throw new Exception("User with given email already exists");
             }

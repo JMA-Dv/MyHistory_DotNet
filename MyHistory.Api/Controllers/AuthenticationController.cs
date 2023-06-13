@@ -20,6 +20,7 @@ namespace MyHistory.Api.Controllers
         [Route("register")]
         public async Task<IActionResult> RegisterAsync(RegisterRequest request)
         {
+
             var authResult = await _auth.Register(
                 request.FirstName, request.LastName, request.Email, request.Password
                 );

@@ -13,11 +13,11 @@ namespace MyHistory.Application.Common.Interfaces.Generic
     /// <typeparam name="T">This stands for all entities that requires CRUD operations</typeparam>
     public interface IGenericRepository<T> where T : class
     {
-        Task<T?> GetByIdAsync(int id);
+        Task<T?> GetByIdAsync(Guid id);
         Task<IEnumerable<T>> GetAllAsync();
         IEnumerable<T> FindAsync(Expression<Func<T,bool>> expression);
         Task<bool> AddAsync(T entity);
         Task<bool> UpdateAsync(T entity);
-        Task<bool> DeleteAsync(int id);
+        Task<bool> DeleteAsync(Guid id);
     }
 }

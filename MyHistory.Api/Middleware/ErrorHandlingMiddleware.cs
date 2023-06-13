@@ -28,10 +28,10 @@ namespace MyHistory.Api.Middleware
         private static Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
             var code = HttpStatusCode.InternalServerError;
-            var result = JsonSerializer.Serialize(new { error = "An error ocurred while processing your request" });
+            var result = JsonSerializer.Serialize(new { error = $"An error ocurred while processing your request- > {exception.Message}" });
 
             context.Response.ContentType = "application/json";
-            context.Response.StatusCode = (int)code;
+            context.Response.StatusCode = (int) code;
             return context.Response.WriteAsync(result);
 
         }

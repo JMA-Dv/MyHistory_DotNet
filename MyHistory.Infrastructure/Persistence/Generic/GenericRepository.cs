@@ -20,7 +20,7 @@ namespace MyHistory.Infrastructure.Persistence.Generic
         public GenericRepository(MyHistoryDbContext dbContext)
         {
             _dbContext = dbContext;
-            _dbSet = _dbContext.Set<T>();
+            _dbSet = _dbContext.Set<T>(); 
         }
 
         public async Task<bool> AddAsync(T entity)
@@ -29,7 +29,7 @@ namespace MyHistory.Infrastructure.Persistence.Generic
             return true;
         }
 
-        public async Task<bool> DeleteAsync(int id)
+        public async Task<bool> DeleteAsync(Guid id)
         {
             var entity = await _dbSet.FindAsync(id);
             if (entity != null)
@@ -54,7 +54,7 @@ namespace MyHistory.Infrastructure.Persistence.Generic
             return await _dbSet.ToListAsync();
         }
 
-        public async Task<T?> GetByIdAsync(int id)
+        public async Task<T?> GetByIdAsync(Guid id)
         {
             return await _dbSet.FindAsync(id);
         }
