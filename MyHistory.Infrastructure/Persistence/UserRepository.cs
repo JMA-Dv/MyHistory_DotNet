@@ -1,15 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using MyHistory.Application.Common.Interfaces.Persistence;
 using MyHistory.Domain.Entities;
 using MyHistory.Infrastructure.Data;
 using MyHistory.Infrastructure.Persistence.Generic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyHistory.Infrastructure.Persistence
 {
@@ -21,7 +14,10 @@ namespace MyHistory.Infrastructure.Persistence
 
         public async  Task<User?> GetUserByEmail(string email)
         {
-            return await _dbContext.Users.Where(x => x.Email == email).FirstOrDefaultAsync();
+
+            var some = await _dbContext.Users.Where(x=>x.Email == email).FirstAsync();
+            var result = await _dbContext.Users.Where(x => x.Email == email).FirstOrDefaultAsync();
+            return result;
         }
     }
 }

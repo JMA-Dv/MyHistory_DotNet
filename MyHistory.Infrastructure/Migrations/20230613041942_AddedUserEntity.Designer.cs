@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyHistory.Infrastructure.Data;
 
@@ -11,9 +12,10 @@ using MyHistory.Infrastructure.Data;
 namespace MyHistory.Infrastructure.Migrations
 {
     [DbContext(typeof(MyHistoryDbContext))]
-    partial class MyHistoryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230613041942_AddedUserEntity")]
+    partial class AddedUserEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\aleja\\.nuget\\packages\\": {}
+    "C:\\Users\\Dracarys\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleja\\Documents\\Workspace\\Personal\\MyHistory_DotNet\\MyHistory.Domain\\MyHistory.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Domain\\MyHistory.Domain.csproj",
       "projectName": "MyHistory.Domain",
-      "projectPath": "C:\\Users\\aleja\\Documents\\Workspace\\Personal\\MyHistory_DotNet\\MyHistory.Domain\\MyHistory.Domain.csproj",
-      "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleja\\Documents\\Workspace\\Personal\\MyHistory_DotNet\\MyHistory.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Domain\\MyHistory.Domain.csproj",
+      "packagesPath": "C:\\Users\\Dracarys\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dracarys\\Documents\\Workspace\\Personal Project\\MyHistory_DotNet\\MyHistory.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dracarys\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -36,12 +36,12 @@ namespace MyHistory.Api.Controllers
         }
 
         [Route("login")]
-        public IActionResult Login(LoginRequest request)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            var authResult = _auth.Login(
+            var authResult = await _auth.Login(
                  request.Email, request.Password
                 );
-
+            
             var response = new AuthenticationResponse
             (
                  authResult.Id,
