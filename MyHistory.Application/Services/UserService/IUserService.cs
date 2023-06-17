@@ -10,8 +10,7 @@ namespace MyHistory.Application.Services.UserService
 {
     public interface IUserService
     {
-        Task<IEnumerable<AuthenticationResult>> AddUser();
-        Task<IEnumerable<AuthenticationResult>> UpdateUser();
+        Task<AuthenticationResult> UpdateUser();
         Task<UserResponse> GetUserByEmailAsync(string email);
     }
 }
